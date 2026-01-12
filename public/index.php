@@ -1,3 +1,3 @@
 <?php
-require_once '../app/init.php';
-$app = new App; 
+declare(strict_types=1);
+require_once __DIR__ . '/../init.php';

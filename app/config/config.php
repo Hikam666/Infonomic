@@ -1,9 +1,8 @@
 <?php
+declare(strict_types=1);
 
-define('BASEURL', 'http://localhost/BelajarMVC/public');
+define('BASE_URL', 'http://localhost/INFONOMIC');
 
-//DB
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'phpmvc');
+date_default_timezone_set('Asia/Jakarta');
+
+require_once __DIR__ . '/.env';
